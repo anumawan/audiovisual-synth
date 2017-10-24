@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  padding-top: 2%;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: Helvetica;
+  font-size: 10px;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: orange;
+}
+
+#box {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2%;
+}

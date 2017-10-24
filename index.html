@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+  <head>
+    <title>Web Audio</title>
+
+    <style>
+
+      body{
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+      }
+
+      canvas{
+        position: absolute;
+      }
+
+    </style>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.9/p5.min.js"></script>
+
+    <script src="js/ADSREnvelope.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/sketch.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <h1>interactive synth</h1>
+    <h2>audiovisual synth sketch based on basic wave shapes. press + release.<h2>
+    <p>created in a coding workshop with <a href="https://dreamboat.io/">ray mcclure</a>.</p>
+<div id="box">
+    <select id="osc-waveform">
+      <option value="sine">sine</option>
+      <option value="square">square</option>
+      <option value="sawtooth">sawtooth</option>
+      <option value="triangle">triangle</option>
+    </select>
+</div>
+
+  </body>
+</html>
